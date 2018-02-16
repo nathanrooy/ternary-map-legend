@@ -12,8 +12,6 @@ from __future__ import division
 from math import sin
 from math import radians
 
-import matplotlib as plt
-
 #--- MAIN ---------------------------------------------------------------------+
 
 def calc_dist(x0, y0, x1, y1):
