@@ -3,6 +3,14 @@ from setuptools import setup
 setup(
     name='tricolor',
     version='0.0.1',
-    url='https://github.com/nathanrooy/python-svg-color-triangle.git',
-    packages=['tricolor']
+    author='Nathan A. Rooy',
+    author_email='nathanrooy@gmail.com',
+    url='https://github.com/nathanrooy/tricolor-map-legend.git',
+    packages=['tricolor'],
+    python_requires='>=3.6',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent'
+    ]
 )
