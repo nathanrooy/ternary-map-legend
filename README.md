@@ -7,13 +7,13 @@ Need to interpolate between three colors in the shape of a variable density equi
 
 ## Installation
 You can either download/clone this repo and use as is, or you can pip install it with the following command:
-```
+```sh
 pip install git+https://github.com/nathanrooy/tricolor-map-legend
 ```
 
 ## Usage
 To create your own color triangle, simply specify three rgb colors, an edge length in pixels, and the number of triangles you want along each edge. Since it's an equilateral triangle, this is just a single integer value. The example below is as complicated as it gets.
-```
+```python
 >>> import tricolor
 >>> c1 = [46, 204, 113]         # bottom corner
 >>> c2 = [255, 255, 0]          # top left corner
