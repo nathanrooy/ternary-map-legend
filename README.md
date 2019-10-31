@@ -25,4 +25,5 @@ To create your own color triangle, simply specify three rgb colors, an edge leng
 ```
 The output of this is an svg file named `new_triangle.svg` which should look like the image below:
 <br>
-<fig><img width=250, src="new_triangle.svg"></fig>
+<br>
+<center><fig><img width=250, src="new_triangle.svg"></fig></center>
