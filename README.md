@@ -26,7 +26,7 @@ The output of this is an svg file named `new_triangle.svg` which should look lik
 <br>
 <p align="center"><img width=250, src="new_triangle.svg"></p>
 
-Since SVG files are a vector format making them infinitely scalable, the default triangle edge length is 1000px. To specify a pixel value other than that, add `edge_len` to the function call as seen below:
+Since SVG files are a vector format making them infinitely scalable, the default triangle edge length is 1000px. To specify a pixel value other than that, add `edge_len` to the function as seen below:
 ```python
 >>> tricolor.tri(tri_rows, c1, c2, c3, file_name, edge_len=100)
 ```
