@@ -39,7 +39,7 @@ def interpolate_color(color_info, x, y):
     return new_color_hex
 
 
-def svg_color_triangle(tri_rows, edge_len, c1, c2, c3, file_name):
+def svg_color_triangle(tri_rows, c1, c2, c3, file_name, edge_len=1000):
 
     # CALCULATE GEOMETRY CONSTANTS
     tri_base_len = edge_len / tri_rows
@@ -127,25 +127,5 @@ def svg_color_triangle(tri_rows, edge_len, c1, c2, c3, file_name):
         print('</svg>', file=out_file)
         out_file.close()
     pass
-
-
-#--- EXAMPLE RUN --------------------------------------------------------------+
-
-##c1 = [234,47,131]   # BOTTOM    (PINK)
-##c2 = [254,167,6]    # TOP LEFT  (ORANGE)
-##c3 = [66,218,67]    # TOP RIGHT (GREEN)
-##
-##c1 = [0,255,255]    # BOTTOM    (CYAN)
-##c2 = [255,0,255]    # TOP LEFT  (MAGENTA)
-##c3 = [255,255,0]    # TOP RIGHT (YELLOW)
-
-c1 = [255,0,0]      # BOTTOM    (RED)
-c2 = [0,255,0]      # TOP LEFT  (BLUE)
-c3 = [0,0,255]      # TOP RIGHT (GREEN)
-
-edge_len = 1000     # edge length (px) of whole triangle
-tri_rows = 10       # number of triangles to subdivide each edge
-#
-# svg_color_triangle((tri_rows, edge_len, c1, c2, c3, 'new_triangle'))
 
 #--- END ----------------------------------------------------------------------+
