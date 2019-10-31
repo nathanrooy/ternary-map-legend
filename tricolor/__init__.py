@@ -1,3 +1,3 @@
-import svg_color_triangle
+import tricolor
 
-something = svg_color_triangle
+tri = svg_color_triangle
