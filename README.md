@@ -8,7 +8,7 @@ Need to interpolate between three colors in the shape of a variable density equi
 ## Installation
 You can either download/clone this repo and use as is, or you can pip install it with the following command:
 ```
-pip install git+https://github.com/nathanrooy/python-svg-color-triangle
+pip install git+https://github.com/nathanrooy/tricolor-map-legend
 ```
 
 ## Usage
