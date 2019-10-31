@@ -14,16 +14,18 @@ pip install git+https://github.com/nathanrooy/python-svg-color-triangle
 ## Usage
 To create your own color triangle, simply specify three rgb colors, an edge length in pixels, and the number of triangles you want along each edge. Since it's an equilateral triangle, this is just a single integer value. The example below is
 ```
-import tricolor
-
-c1 = [46, 204, 113]         # bottom corner
-c2 = [255, 255, 0]          # top left corner
-c3 = [52, 152, 219]         # top right
-edge_len = 1000             # edge length (px)
-tri_rows = 10               # number of triangles to subdivide each edge
-file_name = 'new_triangle'  # output file name
-
-tricolor.tri(tri_rows, edge_len, c1, c2, c3, file_name)
+>>> import tricolor
+```
+```
+>>> c1 = [46, 204, 113]         # bottom corner
+>>> c2 = [255, 255, 0]          # top left corner
+>>> c3 = [52, 152, 219]         # top right
+>>> edge_len = 1000             # edge length (px)
+>>> tri_rows = 10               # number of triangles to subdivide each edge
+>>> file_name = 'new_triangle'  # output file name
+```
+```
+>>> tricolor.tri(tri_rows, edge_len, c1, c2, c3, file_name)
 ```
 The output of this is an svg file named `new_triangle.svg` which should look like the image below:
 <br>
