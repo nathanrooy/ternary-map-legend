@@ -1,9 +1,9 @@
 # tricolor-map-legend
 
 Need to interpolate between three colors in the shape of a variable density equilateral triangle for a map legend? Look no further! See below for example output:
-<center><fig><img src="example-1.png"></fig></center>
-<center><fig><img src="example-2.png"></fig></center>
-<center><fig><img src="example-3.png"></fig></center>
+<p align="center"><img src="example-1.png"></p>
+<p align="center"><img src="example-2.png"></p>
+<p align="center"><img src="example-3.png"></p>
 
 ## Installation
 You can either download/clone this repo and use as is, or you can pip install it with the following command:
@@ -25,5 +25,4 @@ To create your own color triangle, simply specify three rgb colors, an edge leng
 ```
 The output of this is an svg file named `new_triangle.svg` which should look like the image below:
 <br>
-<br>
-<center><fig><img width=250, src="new_triangle.svg"></fig></center>
+<p align="center"><img width=250, src="new_triangle.svg"></p>
